@@ -8,6 +8,8 @@
 <meta name="author" content="Thong Dao">
 <link rel="stylesheet" type="text/css" href="index.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="build/tracking-min.js"></script>
+<script src="build/data/face-min.js"></script>
 <script src="lib/function.js"></script>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -21,10 +23,13 @@
 <body>
     <div class="container">
         <h4 align="center">Choose a photo to begin</h4>
-         <img class="chosen" src=""/>
+        <span id="photo"><img id="chosen" class="chosen" src=""/></span>
         <label class="btn custom btn-primary btn-file center-block vertical-center">
-            Upload Photo <input type="file" onchange="readURL(this);" style="display: none;">
-        </label>        
+            Upload Photo <input type="file" onchange="readImage(this);" style="display: none;">
+        </label>
+        <label id="detect-btn" style="display:none;" onclick="detectFaces()" class="btn custom2 btn-primary btn-file center-block vertical-center">
+            Detect Faces
+        </label>            
     </div>
 </body>
 </html>
