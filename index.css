@@ -1,0 +1,9 @@
+body { 
+    background: #F8F9F9 !important; 
+}
+
+.container {
+    margin-top:25%;
+    margin-left: auto;
+    margin-right: auto;
+}
