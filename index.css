@@ -3,11 +3,18 @@ body {
 }
 
 .container {
-    margin-top:25%;
+    margin-top:15%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .custom {
     width:20%;
+    margin-top: 5%;
+}
+
+.chosen {
+    display:none;
+    margin-left:auto;
+    margin-right:auto;
 }
