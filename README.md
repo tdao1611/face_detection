@@ -1,11 +1,22 @@
 # face_detection
-fun project - face detection with JS
+
+## Description
+face detection with JS
 
 Author : Thong Dao - Stephen Dao
 
 The project is mainly written in Bootstrap and tracking.js
 
-Some screenshots: 
+## Instalation
+
+```
+$ git clone https://github.com/DaoGatech/face_detection.git
+```
+
+## Demo
+https://daogatech.github.io/face_detection/
+
+## Screenshots: 
 
 ![ScreenShot](https://github.com/DaoGatech/face_detection/blob/gh-pages/examples/1.png)
 
