@@ -7,11 +7,11 @@ The project is mainly written in Bootstrap and tracking.js
 
 Some screenshots: 
 
-![ScreenShot](https://github.com/DaoGatech/face_detection/blob/master/examples/1.png)
+![ScreenShot](https://github.com/DaoGatech/face_detection/blob/gh-pages/examples/1.png)
 
-![ScreenShot](https://github.com/DaoGatech/face_detection/blob/master/examples/2.png)
+![ScreenShot](https://github.com/DaoGatech/face_detection/blob/gh-pages/examples/2.png)
 
-![ScreenShot](https://github.com/DaoGatech/face_detection/blob/master/examples/3.png)
+![ScreenShot](https://github.com/DaoGatech/face_detection/blob/gh-pages/examples/3.png)
 
-![ScreenShot](https://github.com/DaoGatech/face_detection/blob/master/examples/4.png)
+![ScreenShot](https://github.com/DaoGatech/face_detection/blob/gh-pages/examples/4.png)
 
